@@ -1,0 +1,305 @@
+#                      |---|   CONFIGURATION   |---|                      #
+
+
+
+
+  #   {---}       [Staff Authentication Section]      {---}
+staff-authentication-status: 'disabled'
+sa-register-message: '&cYou must register: &e/register &6<password>'
+sa-login-message: '&cYou must login: &e/login &6<password>'
+register-success: '&6&lREGISTER SUCCESSFUL&8 | &eYou are now registered.'
+register-fail: '&4&lREGISTER FAILED&8 | &cPlease retry.'
+login-fail: '&4&lLOGIN FAILED&8 | &cPlease retry.'
+login-success: '&6&lLOGIN SUCCESSFUL&8 | &eYou are now logged in.'
+found-password: '%prefix% &ePassword of &f%name%&e is &6%password%&e.'
+changed-password: '%prefix% &eChanged password of &f%name%&e to &6%password%&e.'
+
+
+
+#           {---}       CommandBlocker Section      {---}
+bad-command-blocker-status: 'enabled'
+bad-command-message: '&cThat command is forbidden!'
+commandblocker-added-command: '%prefix% &eAdded command &6%command% &eto the list.'
+commandblocker-removed-command: '%prefix% &eRemoved command &6%command% &efrom the list.'
+commandblocker-listed-commands: '%prefix% &eBad command list: &6%list%&e.'
+
+
+
+#           {---}       Mentions Section        {---}
+mentions-status: 'enabled'
+mentioned-notification: '&6%name% &ehas mentioned you!'
+mention: '&e&l@&6%name%'
+mention-alerts-toggled: '%prefix% &eYou have &6%toggle% &emention notifications.'
+
+
+
+#           {---}       Anti-Swear Section      {---}
+anti-swear-status: 'enabled'
+swearing-message: '&cPlease do not swear.'
+swear-word-list: '%prefix% &eWordlist:&6 %words%&e.'
+swear-word-added: '%prefix% &eYou added &6%word% &eto the filter list.'
+swear-word-removed: '%prefix% &eYou removed &6%word% &efrom the filter list.'
+
+
+
+#           {---}       Chat Managing Section       {---}
+anti-commandspam-status: 'enabled'
+anti-commandspam-cooldown-seconds: 2
+anticaps-status: 'enabled'
+max-caps-characters: 7
+anti-caps-message: '&cPlease use less CAPS lock.'
+chat-cleared: '&eThe chat was cleared by &6%name%&e.'
+chat-slowed: '&eThe chat was set to a slow interval of &6%seconds%&e by &f%name%&e.'
+chat-slow-disabled: '&eThe chat slow was disabled by &f%name%&e.'
+chat-locked-speak: '&cThe chat is currently locked!'
+chat-lock-enabled: '&eThe chat was locked by&f %name%&e.'
+chat-lock-disabled: '&eThe chat was unlocked by&f %name%&e.'
+
+
+
+#           {---}       General     {---}
+plugin-reloaded-message: '%prefix% &eYou have reloaded StaffTools successfully.'
+prefix: '&6&lST&8 >>&e'
+must-be-player: '%prefix% &cYou must be a player!'
+no-permission: '&cInsufficient permission.'
+usage: '%prefix% Usage: &c%usage%'
+unsupported-version: '%prefix% &cYou are currently running StaffTools on an unsupported version (%version%).'
+target-is-offline: '%prefix% &cYour target (%name%) is offline.'
+on-cooldown-message: '%prefix% &eYou are on cooldown for &6%time%&e seconds.'
+argument-isnt-number: '%prefix% &cThe argument &f%arg%&c must be a number!'
+number-too-low: '%prefix% &cThat number is too low (%arg%)'
+must-be-console: '&cYou must be in console to perform this action!'
+number-too-big: '%prefix% &cThe number &f%arg% &cis too big! Max:&f %max%&c.'
+
+
+#           {---}       StaffChat Section       {---}
+staff-chat-enabled: '%prefix% Your staffchat status was updated to TRUE.'
+staff-chat-disabled: '%prefix% You staffchat status was updated to FALSE.'
+toggled-players-staffchat: '%prefix% &eYou &6%toggle% &estaffchat of &f%name%&e.'
+staffchat-format: '&b%name%: %message%'
+
+
+
+#           {---}       ClearLag Section        {---}
+automatic-clear-lag: 'enabled'
+clear-lag-repeat-interval-seconds: 300
+clear-lag-message: '&7[&6%total%&7]&e Entities were removed from the ground.'
+
+
+
+#           {---}       CommandSpy Section      {---}
+commandspy-toggled: '%prefix% &eYou have %toggle% commandspy.'
+commandspy-format: '%prefix% &f%name%&f: &6%command%'
+
+
+
+#           {---}       Reports Section     {---}
+player-reported: '%prefix% You reported &f%name% &efor &6%reason%&e.'
+reported-notification: '%prefix% &f%target_name% &ewas reported by &e%name%&e for &6%reason%&e.'
+report-cooldown-seconds: 60
+reportlog-format: '&7[%date%&7]&e Reporter:&6 %reporter%&8 |&e Reason:&6 %reason%'
+check-report-info: '%prefix% &f%name% &ehas a total of &6%count% &ereports.'
+report-alerts-toggled: '%prefix% &eYour report notifications were &6%toggled%&e.'
+cleared-reports: '%prefix% &eYou cleared all reports from &f%name%&e.'
+reports-page-doesnt-exist: '&cThat page does not exist.'
+report-page-spacer: '&8&m----------------------------------'
+reports-per-page: 4
+
+
+
+#           {---}       Freeze Section      {---}
+frozen-prefix: '&4[FROZEN]'
+frozen-player-quit: '%prefix% &4&l%name% HAS LEFT WHILE FROZEN.'
+frozen-player: '%prefix% &eYou froze &f%name%&e.'
+frozen-message: '&eYou have been frozen by a staff member. Do not leave the server!'
+unfroze-player: '%prefix% &eYou unfroze &f%name%&e.'
+unfrozen-message: '&eYou are no longer frozen.'
+
+
+
+#           {---}       GUI Names Section       {---}
+miner-list-gui-name: '&0&lMiner List'
+staff-list-gui-name: '&0&lStaff List'
+reports-list-gui-name: '&0&lView Reports'
+player-inspect-gui-name: '&o&l%name%'
+
+
+
+#           {---}       ChatColor Section       {---}
+chatcolor-list-msg: '%prefix% disable, &0black, &1dark_blue, &2dark_green, &eyellow, &3cyan, &4dark_red, &5purple, &6orange, &7gray, &8dark_gray, &9blue, &agreen, &cred, &baqua, &dpink, &f&lbold, &f&nunderline&f, &f&mstrikethrough&e.'
+chatcolor-changed-target: '%prefix% You changed chatcolor of %name% to %color%.'
+chatcolor-changed: '%prefix% &eYour chatcolor is now %color%.'
+
+
+
+#           {---}       Notes Section       {---}
+added-note: '%prefix% &eAdded note &6%note%&e to &f%name%&e.'
+cleared-notes: '%prefix% &eCleared notes for &f%name%.'
+doesnt-have-notes: '%prefix% &f%name%&e does not have any notes.'
+checknote-format: '%prefix% &7[&6%count%&7] &e%note%'
+
+
+
+#           {---}       Item Modification Section       {---}
+must-be-holding-item: '%prefix% &eYou must be holding a valid item.'
+lore-changed: '%prefix% &eYou successfully changed the lore of your item.'
+name-changed: '%prefix% &eYou successfully changed the name of your item.'
+item-meta-reset: '%prefix% &eYou successfully reset your item.'
+enchanted-item: '%prefix% &eYou successfully added &f%enchantment% &eLv.&6 %level% &eto your item.'
+enchantment-list: '%prefix% &eEnchantments: &6power, protection, sharpness, aqua_affinity, blast_protection, depth_strider, efficiency, feather_falling, flame, infinity, knockback, looting, fortune, punch, projectile_protection, silk_touch, thorns, unbreaking, fire_aspect&e.'
+enchantments-cleared: '%prefix% &eYou successfully cleared all enchantments.'
+enchantment-not-found: '%prefix% &cCould not find enchantment &f%enchantment%&c.'
+item-fixed-msg: '%prefix% &eRepaired your item &6successfully&e.'
+
+
+
+#           {---}       Xray Section        {---}
+xray-alert-format: '&7[&c!&7] &3%name%&7 might be using X-Ray &cVL&f: &7[&c%vl%&7] &c(found %ore%)'
+xray-alerts-toggled: '%prefix% &eYou %toggle% X-Ray alerts.'
+xray-alerts-toggled-player: '%prefix% &eYou %toggle% X-Ray alerts for %name%.'
+
+
+
+#           {---}       Ticket Section      {---}
+ticket-cooldown: 120
+ticket-created: '&eYou have submitted a ticket with request: &6%request%&e and id &6%id%&e.'
+no-tickets-submitted: '%prefix% &eThere are currently no submitted tickets.'
+ticket-alerts-toggled: '%prefix% &eYou have &6%toggled%&e ticket alerts.'
+ticket-submitted-notify: '%prefix% &eTicket &8[&6%id%&8] &ehas been submitted by &f%name%&e for &6%request%&e.'
+ticket-closed: '%prefix% &eSuccessfully closed ticket &6%id%&e.'
+ticket-creator-offline: '%prefix% &eThe user who created the ticket is offline.'
+ticket-response-staff: '&e[&6&l%id%&e] &8| &6Staff (%name%): &e%response%'
+ticket-list-format: '&eTicket &6%id% &eby %name% &8| &7[%time%] &6%reason%'
+ticket-response-creator: '&e[&6&l%id%&e] &8| &6Creator (%name%): &e%response%'
+ticket-cannot-reply: '&eYou can not reply to the ticket yet, please wait for a staff member to reply to your ticket.'
+ticket-not-found: '%prefix% &eTicket &6(ID: %id%) &ecould not be found or does not exist.'
+ticket-is-already-claimed: '%prefix% &eTicket &6(%id%) &eis already claimed by &f%name%&e.'
+your-ticket-deleted: '&eYour ticket &6(%id%) &ewas closed by &f%name%&e.'
+
+
+
+#           {---}       Whitelist Section       {---}
+whitelist-toggled: '%prefix% &eYou have &6%toggled%&e the whitelist.'
+kick-on-whitelist: 'disabled'
+whitelist-required: '%prefix% &eWhitelist must be enabled.'
+whitelisted-player: '%prefix% &eSuccessfully added &f%name%&e to the whitelist.'
+unwhitelisted-player: '%prefix% &eSuccessfully removed &f%name%&e from the whitelist.'
+whitelisted-user-list: '&7[%count%] &6%list%&6.'
+cannot-unwhitelist: '%prefix% &eCan not unwhitelist &f%name%&e because there are too little whitelisted players.'
+player-isnt-whitelisted: '%prefix% &f%name%&e is not whitelisted.'
+player-already-whitelisted: '%prefix% &f%name%&e is already whitelisted!'
+cant-join-not-whitelisted-message: '&7You are not allowed to join, the server is currently under &cmaintence&7.'
+
+
+
+#           {---}       Inventory Rollback Section      {---}
+cant-find-inventory: '%prefix% &eCould not find previous inventory of &f%name%&e.'
+inventory-rollbacked: '&eYour inventory has been &e&lrestored&e successfully.'
+inventory-rollbacked-staff: '%prefix%&e You successfully rolled inventory of &f%name%&e back.'
+
+
+
+#           {---}       Command Logging Section     {---}
+no-logs-found: '%prefix% &eCould not find logs for &f%name%&e.'
+logs-cleared: '%prefix% &eCleared logs for &f%name% &esuccessfully.'
+logcommand-exists: '&cThe command you entered (%command%) is already in the list.'
+logcommand-doesnt-exist: '&cThe command you entered (%command%) is not in the list.'
+logcommand-added: '%prefix% &eCommand &6%command% &ewill be logged from now on.'
+logcommand-removed: '%prefix% &eCommand &6%command%&e will no longer be logged.'
+logcommand-list: '%prefix% &eLogged Commands:&6 %list%&e.'
+logcommand-status: 'enabled'
+log-format: '&7[%date%] &e%name%:&6&l %command%'
+
+
+
+#           {---}       StaffMode Section       {---}
+follower-message: '%prefix% &eYou are now following &f%name%&e.'
+staffmode-toggled: '%prefix% &eYour staffmode was &6%status%&e.'
+toggled-players-staffmode: '%prefix% &eYou toggled staffmode of &f%name%&e.'
+teleport-successful: '%prefix% &eYou were teleported to &f%name%&e.'
+teleport-random-fail: '%prefix% &eNot enough online players to teleport.'
+toggled-vanish: '%prefix% &eYou &6%toggled%&e vanish.'
+toggled-players-vanish: '%prefix% &eYou &6%toggled% &evanish for &f%name%&e.'
+show-miners-under-y-level: 25
+
+
+#           {---}       Speed Section        {---}
+walk-speed-set: '%prefix% &eYour walking speed was set to &6%speed%&e.'
+fly-speed-set: '%prefix% &eYour flight speed was set to &6%speed%&e.'
+walk-speed-reset: '%prefix% &eYour walking speed was reset.'
+fly-speed-reset: '%prefix% &eYour flight speed was reset.'
+
+#           {---}       Misc        {---}
+playtime-message: '&f%name%&e has played for a total of &6%time%&e.'
+player-stripped: '%prefix% &eStripped armor of &f%name%&e.'
+player-inventory-full: '%prefix% &cInventory of &f%name%&c is full.'
+ping-message: '%prefix% &ePing of &f%name% &eis &6%ping%&e.'
+toggled-godmode: '%prefix% &eYour godmode was &6%toggled%&e.'
+toggled-godmode-player: '%prefix% &eYou &6%toggled%&e godmode for &f%name%&e.'
+
+
+#           {---}       Command Toggle Section      {---}
+commands:
+  staffchat: 'enabled'
+  report: 'enabled'
+  chat: 'enabled'
+  commandspy: 'enabled'
+  staffmode: 'enabled'
+  freeze: 'enabled'
+  vanish: 'enabled'
+  chatcolor: 'enabled'
+  clearlag: 'enabled'
+  notes: 'enabled'
+  stafftools: 'enabled'
+  item: 'enabled'
+  enchant: 'enabled'
+  alerts: 'enabled'
+  antiswear: 'enabled'
+  commandblocker: 'enabled'
+  register: 'enabled'
+  login: 'enabled'
+  password: 'enabled'
+  ticket: 'enabled'
+  whitelist: 'enabled'
+  rollback: 'enabled'
+  reports: 'enabled'
+  playtime: 'enabled'
+  logs: 'enabled'
+  strip: 'enabled'
+  inspect: 'enabled'
+  fix: 'enabled'
+  speed: 'enabled'
+  ping: 'enabled'
+  god: 'enabled'
+
+#           {---}       Staff Mode Items Section     {---}
+staffmode-randomtp-name: '&6Random Teleport'
+staffmode-randomtp-material: 'COMPASS'
+staffmode-randomtp-amount: 1
+staffmode-randomtp-slot: 0
+staffmode-freeze-name: '&6Freeze Player'
+staffmode-freeze-material: 'PACKED_ICE'
+staffmode-freeze-amount: 1
+staffmode-freeze-slot: 7
+staffmode-minerlist-name: '&6Miner List'
+staffmode-minerlist-material: 'RECORD_9'
+staffmode-minerlist-amount: 1
+staffmode-minerlist-slot: 3
+staffmode-stafflist-name: '&6Staff Online'
+staffmode-stafflist-material: 'NETHER_STAR'
+staffmode-stafflist-amount: 1
+staffmode-stafflist-slot: 2
+staffmode-inspectbook-name: '&6Inspect'
+staffmode-inspectbook-material: 'BOOK'
+staffmode-inspectbook-amount: 1
+staffmode-inspectbook-slot: 1
+staffmode-vanishoff-name: '&6Vanish &6(&cOFF&6)'
+staffmode-vanishoff-amount: 1
+staffmode-vanishoff-slot: 8
+staffmode-vanishon-name: '&6Vanish &6(&aON&6)'
+staffmode-vanishon-amount: 1
+staffmode-vanishon-slot: 8
+staffmode-follower-name: '&6Follow Player'
+staffmode-follower-material: 'LEASH'
+staffmode-follower-amount: 1
+staffmode-follower-slot: 4

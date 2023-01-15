@@ -1,0 +1,87 @@
+name: Stafftools
+version: '${project.version}'
+main: me.missingdrift.stafftools.Stafftools
+authors: [ MissingDrift ]
+commands:
+  staffchat:
+    aliases: [sc]
+    description: Toggles a player's staff chat mode.
+  report:
+    description: Report someone or manage reports.
+  chat:
+    description: Manage the chat.
+  commandspy:
+    description: Spy on commands.
+  staffmode:
+    aliases: [mod, modmode, sm]
+    description: Toggle a player's staff mode.
+  freeze:
+    aliases: [ss, halt]
+    description: Freezes a player (disables movement,..)
+  vanish:
+    aliases: [v]
+    description: Makes you invisible.
+  chatcolor:
+    aliases: [colorchat, color]
+    description: Changes a player's chat color.
+  clearlag:
+    aliases: [lagclear]
+    description: Instantly clears ground entities.
+  notes:
+    aliases: [note]
+    description: Manage player notes.
+  stafftools:
+    aliases: [st]
+    description: Main stafftools command!
+  item:
+    description: Enhance your items' appearance!
+  enchant:
+    description: Add overpowered enchantments to items.
+  alerts:
+    aliases: [alert]
+    description: Tired of notifications? Toggle them here.
+  antiswear:
+    aliases: [as]
+    description: Manage the anti-swear.
+  commandblocker:
+    aliases: [cb]
+    description: Manage the command blocker.
+  register:
+    description: Register your account.
+  login:
+    description: Log in to your account.
+  password:
+    description: Manage staff passwords.
+  ticket:
+    aliases: [tickets]
+    description: Create or manage tickets.
+  whitelist:
+    aliases: [wl]
+    description: Manage the whitelist.
+  rollback:
+    aliases: [restore, restoreinv, restoreinventory, rollbackinv, rollbackinventory]
+    description: Roll a player's inventory back to what it was before death!
+  reports:
+    description: View all of the reports.
+  playtime:
+    description: Displays a player's playtime.
+  logs:
+    aliases: [log]
+    description: Manage the command logs.
+  strip:
+    description: Strips a player of their armor.
+  inspect:
+    aliases: [invsee]
+    description: Allows you to inspect a player.
+  fix:
+    aliases: [repair]
+    description: Repairs the tool you are holding.
+  speed:
+    aliases: [flyspeed]
+    description: Modify your flight/walking speed.
+  ping:
+    aliases: [ms]
+    description: Check a player's ping.
+  god:
+    aliases: [invincible, invulnerable]
+    description: Toggle a player's god mode.
