@@ -1,9 +1,23 @@
-#                      |---|   CONFIGURATION   |---|                      #
+#   ██████  ██████  ███    ██ ███████ ██  ██████  ██    ██ ██████   █████  ████████ ██  ██████  ███    ██ 
+#  ██      ██    ██ ████   ██ ██      ██ ██       ██    ██ ██   ██ ██   ██    ██    ██ ██    ██ ████   ██ 
+#  ██      ██    ██ ██ ██  ██ █████   ██ ██   ███ ██    ██ ██████  ███████    ██    ██ ██    ██ ██ ██  ██ 
+#  ██      ██    ██ ██  ██ ██ ██      ██ ██    ██ ██    ██ ██   ██ ██   ██    ██    ██ ██    ██ ██  ██ ██ 
+#   ██████  ██████  ██   ████ ██      ██  ██████   ██████  ██   ██ ██   ██    ██    ██  ██████  ██   ████ 
+
+# Plugin made by MissingDrift
+# Version 1.0 - Private Release
 
 
 
 
-  #   {---}       [Staff Authentication Section]      {---}
+
+
+#  ███████ ████████  █████  ███████ ███████      █████  ██    ██ ████████ ██   ██ 
+#  ██         ██    ██   ██ ██      ██          ██   ██ ██    ██    ██    ██   ██ 
+#  ███████    ██    ███████ █████   █████       ███████ ██    ██    ██    ███████ 
+#       ██    ██    ██   ██ ██      ██          ██   ██ ██    ██    ██    ██   ██ 
+#  ███████    ██    ██   ██ ██      ██          ██   ██  ██████     ██    ██   ██ 
+
 staff-authentication-status: 'disabled'
 sa-register-message: '&cYou must register: &e/register &6<password>'
 sa-login-message: '&cYou must login: &e/login &6<password>'
@@ -16,7 +30,12 @@ changed-password: '%prefix% &eChanged password of &f%name%&e to &6%password%&e.'
 
 
 
-#           {---}       CommandBlocker Section      {---}
+#   ██████  ██████  ███    ███ ███    ███  █████  ███    ██ ██████      ██████  ██       ██████   ██████ ██   ██ 
+#  ██      ██    ██ ████  ████ ████  ████ ██   ██ ████   ██ ██   ██     ██   ██ ██      ██    ██ ██      ██  ██  
+#  ██      ██    ██ ██ ████ ██ ██ ████ ██ ███████ ██ ██  ██ ██   ██     ██████  ██      ██    ██ ██      █████   
+#  ██      ██    ██ ██  ██  ██ ██  ██  ██ ██   ██ ██  ██ ██ ██   ██     ██   ██ ██      ██    ██ ██      ██  ██  
+#   ██████  ██████  ██      ██ ██      ██ ██   ██ ██   ████ ██████      ██████  ███████  ██████   ██████ ██   ██ 
+
 bad-command-blocker-status: 'enabled'
 bad-command-message: '&cThat command is forbidden!'
 commandblocker-added-command: '%prefix% &eAdded command &6%command% &eto the list.'
@@ -25,7 +44,12 @@ commandblocker-listed-commands: '%prefix% &eBad command list: &6%list%&e.'
 
 
 
-#           {---}       Mentions Section        {---}
+#  ███    ███ ███████ ███    ██ ████████ ██  ██████  ███    ██ ███████ 
+#  ████  ████ ██      ████   ██    ██    ██ ██    ██ ████   ██ ██      
+#  ██ ████ ██ █████   ██ ██  ██    ██    ██ ██    ██ ██ ██  ██ ███████ 
+#  ██  ██  ██ ██      ██  ██ ██    ██    ██ ██    ██ ██  ██ ██      ██ 
+#  ██      ██ ███████ ██   ████    ██    ██  ██████  ██   ████ ███████ 
+
 mentions-status: 'enabled'
 mentioned-notification: '&6%name% &ehas mentioned you!'
 mention: '&e&l@&6%name%'
@@ -33,7 +57,12 @@ mention-alerts-toggled: '%prefix% &eYou have &6%toggle% &emention notifications.
 
 
 
-#           {---}       Anti-Swear Section      {---}
+#   █████  ███    ██ ████████ ██     ███████ ██     ██ ███████  █████  ██████  
+#  ██   ██ ████   ██    ██    ██     ██      ██     ██ ██      ██   ██ ██   ██ 
+#  ███████ ██ ██  ██    ██    ██     ███████ ██  █  ██ █████   ███████ ██████  
+#  ██   ██ ██  ██ ██    ██    ██          ██ ██ ███ ██ ██      ██   ██ ██   ██ 
+#  ██   ██ ██   ████    ██    ██     ███████  ███ ███  ███████ ██   ██ ██   ██ 
+
 anti-swear-status: 'enabled'
 swearing-message: '&cPlease do not swear.'
 swear-word-list: '%prefix% &eWordlist:&6 %words%&e.'
@@ -42,7 +71,12 @@ swear-word-removed: '%prefix% &eYou removed &6%word% &efrom the filter list.'
 
 
 
-#           {---}       Chat Managing Section       {---}
+#   ██████ ██   ██  █████  ████████     ███    ███  █████  ███    ██  █████   ██████  ██ ███    ██  ██████  
+#  ██      ██   ██ ██   ██    ██        ████  ████ ██   ██ ████   ██ ██   ██ ██       ██ ████   ██ ██       
+#  ██      ███████ ███████    ██        ██ ████ ██ ███████ ██ ██  ██ ███████ ██   ███ ██ ██ ██  ██ ██   ███ 
+#  ██      ██   ██ ██   ██    ██        ██  ██  ██ ██   ██ ██  ██ ██ ██   ██ ██    ██ ██ ██  ██ ██ ██    ██ 
+#   ██████ ██   ██ ██   ██    ██        ██      ██ ██   ██ ██   ████ ██   ██  ██████  ██ ██   ████  ██████  
+
 anti-commandspam-status: 'enabled'
 anti-commandspam-cooldown-seconds: 2
 anticaps-status: 'enabled'
@@ -57,7 +91,12 @@ chat-lock-disabled: '&eThe chat was unlocked by&f %name%&e.'
 
 
 
-#           {---}       General     {---}
+#   ██████  ███████ ███    ██ ███████ ██████   █████  ██      
+#  ██       ██      ████   ██ ██      ██   ██ ██   ██ ██      
+#  ██   ███ █████   ██ ██  ██ █████   ██████  ███████ ██      
+#  ██    ██ ██      ██  ██ ██ ██      ██   ██ ██   ██ ██      
+#   ██████  ███████ ██   ████ ███████ ██   ██ ██   ██ ███████ 
+
 plugin-reloaded-message: '%prefix% &eYou have reloaded StaffTools successfully.'
 prefix: '&6&lST&8 >>&e'
 must-be-player: '%prefix% &cYou must be a player!'
@@ -72,7 +111,13 @@ must-be-console: '&cYou must be in console to perform this action!'
 number-too-big: '%prefix% &cThe number &f%arg% &cis too big! Max:&f %max%&c.'
 
 
-#           {---}       StaffChat Section       {---}
+
+#  ███████ ████████  █████  ███████ ███████      ██████ ██   ██  █████  ████████ 
+#  ██         ██    ██   ██ ██      ██          ██      ██   ██ ██   ██    ██    
+#  ███████    ██    ███████ █████   █████       ██      ███████ ███████    ██    
+#       ██    ██    ██   ██ ██      ██          ██      ██   ██ ██   ██    ██    
+#  ███████    ██    ██   ██ ██      ██           ██████ ██   ██ ██   ██    ██    
+
 staff-chat-enabled: '%prefix% Your staffchat status was updated to TRUE.'
 staff-chat-disabled: '%prefix% You staffchat status was updated to FALSE.'
 toggled-players-staffchat: '%prefix% &eYou &6%toggle% &estaffchat of &f%name%&e.'
@@ -80,20 +125,35 @@ staffchat-format: '&b%name%: %message%'
 
 
 
-#           {---}       ClearLag Section        {---}
+#   ██████ ██      ███████  █████  ██████      ██       █████   ██████  
+#  ██      ██      ██      ██   ██ ██   ██     ██      ██   ██ ██       
+#  ██      ██      █████   ███████ ██████      ██      ███████ ██   ███ 
+#  ██      ██      ██      ██   ██ ██   ██     ██      ██   ██ ██    ██ 
+#   ██████ ███████ ███████ ██   ██ ██   ██     ███████ ██   ██  ██████  
+
 automatic-clear-lag: 'enabled'
 clear-lag-repeat-interval-seconds: 300
 clear-lag-message: '&7[&6%total%&7]&e Entities were removed from the ground.'
 
 
 
-#           {---}       CommandSpy Section      {---}
+#   ██████  ██████  ███    ███ ███    ███  █████  ███    ██ ██████      ███████ ██████  ██    ██ 
+#  ██      ██    ██ ████  ████ ████  ████ ██   ██ ████   ██ ██   ██     ██      ██   ██  ██  ██  
+#  ██      ██    ██ ██ ████ ██ ██ ████ ██ ███████ ██ ██  ██ ██   ██     ███████ ██████    ████   
+#  ██      ██    ██ ██  ██  ██ ██  ██  ██ ██   ██ ██  ██ ██ ██   ██          ██ ██         ██    
+#   ██████  ██████  ██      ██ ██      ██ ██   ██ ██   ████ ██████      ███████ ██         ██    
+
 commandspy-toggled: '%prefix% &eYou have %toggle% commandspy.'
 commandspy-format: '%prefix% &f%name%&f: &6%command%'
 
 
 
-#           {---}       Reports Section     {---}
+#  ██████  ███████ ██████   ██████  ██████  ████████ ███████ 
+#  ██   ██ ██      ██   ██ ██    ██ ██   ██    ██    ██      
+#  ██████  █████   ██████  ██    ██ ██████     ██    ███████ 
+#  ██   ██ ██      ██      ██    ██ ██   ██    ██         ██ 
+#  ██   ██ ███████ ██       ██████  ██   ██    ██    ███████ 
+
 player-reported: '%prefix% You reported &f%name% &efor &6%reason%&e.'
 reported-notification: '%prefix% &f%target_name% &ewas reported by &e%name%&e for &6%reason%&e.'
 report-cooldown-seconds: 60
@@ -107,7 +167,12 @@ reports-per-page: 4
 
 
 
-#           {---}       Freeze Section      {---}
+#  ███████ ██████  ███████ ███████ ███████ ███████ 
+#  ██      ██   ██ ██      ██         ███  ██      
+#  █████   ██████  █████   █████     ███   █████   
+#  ██      ██   ██ ██      ██       ███    ██      
+#  ██      ██   ██ ███████ ███████ ███████ ███████ 
+
 frozen-prefix: '&4[FROZEN]'
 frozen-player-quit: '%prefix% &4&l%name% HAS LEFT WHILE FROZEN.'
 frozen-player: '%prefix% &eYou froze &f%name%&e.'
@@ -117,7 +182,12 @@ unfrozen-message: '&eYou are no longer frozen.'
 
 
 
-#           {---}       GUI Names Section       {---}
+#   ██████  ██    ██ ██     ███    ██  █████  ███    ███ ███████ ███████ 
+#  ██       ██    ██ ██     ████   ██ ██   ██ ████  ████ ██      ██      
+#  ██   ███ ██    ██ ██     ██ ██  ██ ███████ ██ ████ ██ █████   ███████ 
+#  ██    ██ ██    ██ ██     ██  ██ ██ ██   ██ ██  ██  ██ ██           ██ 
+#   ██████   ██████  ██     ██   ████ ██   ██ ██      ██ ███████ ███████ 
+
 miner-list-gui-name: '&0&lMiner List'
 staff-list-gui-name: '&0&lStaff List'
 reports-list-gui-name: '&0&lView Reports'
@@ -125,14 +195,24 @@ player-inspect-gui-name: '&o&l%name%'
 
 
 
-#           {---}       ChatColor Section       {---}
+#   ██████ ██   ██  █████  ████████      ██████  ██████  ██       ██████  ██████  
+#  ██      ██   ██ ██   ██    ██        ██      ██    ██ ██      ██    ██ ██   ██ 
+#  ██      ███████ ███████    ██        ██      ██    ██ ██      ██    ██ ██████  
+#  ██      ██   ██ ██   ██    ██        ██      ██    ██ ██      ██    ██ ██   ██ 
+#   ██████ ██   ██ ██   ██    ██         ██████  ██████  ███████  ██████  ██   ██ 
+
 chatcolor-list-msg: '%prefix% disable, &0black, &1dark_blue, &2dark_green, &eyellow, &3cyan, &4dark_red, &5purple, &6orange, &7gray, &8dark_gray, &9blue, &agreen, &cred, &baqua, &dpink, &f&lbold, &f&nunderline&f, &f&mstrikethrough&e.'
 chatcolor-changed-target: '%prefix% You changed chatcolor of %name% to %color%.'
 chatcolor-changed: '%prefix% &eYour chatcolor is now %color%.'
 
 
 
-#           {---}       Notes Section       {---}
+#  ███████ ████████  █████  ███████ ███████     ███    ██  ██████  ████████ ███████ ███████ 
+#  ██         ██    ██   ██ ██      ██          ████   ██ ██    ██    ██    ██      ██      
+#  ███████    ██    ███████ █████   █████       ██ ██  ██ ██    ██    ██    █████   ███████ 
+#       ██    ██    ██   ██ ██      ██          ██  ██ ██ ██    ██    ██    ██           ██ 
+#  ███████    ██    ██   ██ ██      ██          ██   ████  ██████     ██    ███████ ███████ 
+
 added-note: '%prefix% &eAdded note &6%note%&e to &f%name%&e.'
 cleared-notes: '%prefix% &eCleared notes for &f%name%.'
 doesnt-have-notes: '%prefix% &f%name%&e does not have any notes.'
@@ -140,7 +220,12 @@ checknote-format: '%prefix% &7[&6%count%&7] &e%note%'
 
 
 
-#           {---}       Item Modification Section       {---}
+#  ██ ████████ ███████ ███    ███ 
+#  ██    ██    ██      ████  ████ 
+#  ██    ██    █████   ██ ████ ██ 
+#  ██    ██    ██      ██  ██  ██ 
+#  ██    ██    ███████ ██      ██ 
+
 must-be-holding-item: '%prefix% &eYou must be holding a valid item.'
 lore-changed: '%prefix% &eYou successfully changed the lore of your item.'
 name-changed: '%prefix% &eYou successfully changed the name of your item.'
@@ -153,14 +238,24 @@ item-fixed-msg: '%prefix% &eRepaired your item &6successfully&e.'
 
 
 
-#           {---}       Xray Section        {---}
+#  ██   ██ ██████   █████  ██    ██ 
+#   ██ ██  ██   ██ ██   ██  ██  ██  
+#    ███   ██████  ███████   ████   
+#   ██ ██  ██   ██ ██   ██    ██    
+#  ██   ██ ██   ██ ██   ██    ██    
+
 xray-alert-format: '&7[&c!&7] &3%name%&7 might be using X-Ray &cVL&f: &7[&c%vl%&7] &c(found %ore%)'
 xray-alerts-toggled: '%prefix% &eYou %toggle% X-Ray alerts.'
 xray-alerts-toggled-player: '%prefix% &eYou %toggle% X-Ray alerts for %name%.'
 
 
 
-#           {---}       Ticket Section      {---}
+#  ████████ ██  ██████ ██   ██ ███████ ████████ ███████ 
+#     ██    ██ ██      ██  ██  ██         ██    ██      
+#     ██    ██ ██      █████   █████      ██    ███████ 
+#     ██    ██ ██      ██  ██  ██         ██         ██ 
+#     ██    ██  ██████ ██   ██ ███████    ██    ███████ 
+
 ticket-cooldown: 120
 ticket-created: '&eYou have submitted a ticket with request: &6%request%&e and id &6%id%&e.'
 no-tickets-submitted: '%prefix% &eThere are currently no submitted tickets.'
@@ -178,7 +273,12 @@ your-ticket-deleted: '&eYour ticket &6(%id%) &ewas closed by &f%name%&e.'
 
 
 
-#           {---}       Whitelist Section       {---}
+#  ██     ██ ██   ██ ██ ████████ ███████ ██      ██ ███████ ████████ 
+#  ██     ██ ██   ██ ██    ██    ██      ██      ██ ██         ██    
+#  ██  █  ██ ███████ ██    ██    █████   ██      ██ ███████    ██    
+#  ██ ███ ██ ██   ██ ██    ██    ██      ██      ██      ██    ██    
+#   ███ ███  ██   ██ ██    ██    ███████ ███████ ██ ███████    ██    
+
 whitelist-toggled: '%prefix% &eYou have &6%toggled%&e the whitelist.'
 kick-on-whitelist: 'disabled'
 whitelist-required: '%prefix% &eWhitelist must be enabled.'
@@ -192,14 +292,24 @@ cant-join-not-whitelisted-message: '&7You are not allowed to join, the server is
 
 
 
-#           {---}       Inventory Rollback Section      {---}
+#  ██ ███    ██ ██    ██     ██████   ██████  ██      ██      ██████   █████   ██████ ██   ██ 
+#  ██ ████   ██ ██    ██     ██   ██ ██    ██ ██      ██      ██   ██ ██   ██ ██      ██  ██  
+#  ██ ██ ██  ██ ██    ██     ██████  ██    ██ ██      ██      ██████  ███████ ██      █████   
+#  ██ ██  ██ ██  ██  ██      ██   ██ ██    ██ ██      ██      ██   ██ ██   ██ ██      ██  ██  
+#  ██ ██   ████   ████       ██   ██  ██████  ███████ ███████ ██████  ██   ██  ██████ ██   ██ 
+
 cant-find-inventory: '%prefix% &eCould not find previous inventory of &f%name%&e.'
 inventory-rollbacked: '&eYour inventory has been &e&lrestored&e successfully.'
 inventory-rollbacked-staff: '%prefix%&e You successfully rolled inventory of &f%name%&e back.'
 
 
 
-#           {---}       Command Logging Section     {---}
+#   ██████  ██████  ███    ███ ███    ███  █████  ███    ██ ██████      ██       ██████   ██████   ██████  ██ ███    ██  ██████  
+#  ██      ██    ██ ████  ████ ████  ████ ██   ██ ████   ██ ██   ██     ██      ██    ██ ██       ██       ██ ████   ██ ██       
+#  ██      ██    ██ ██ ████ ██ ██ ████ ██ ███████ ██ ██  ██ ██   ██     ██      ██    ██ ██   ███ ██   ███ ██ ██ ██  ██ ██   ███ 
+#  ██      ██    ██ ██  ██  ██ ██  ██  ██ ██   ██ ██  ██ ██ ██   ██     ██      ██    ██ ██    ██ ██    ██ ██ ██  ██ ██ ██    ██ 
+#   ██████  ██████  ██      ██ ██      ██ ██   ██ ██   ████ ██████      ███████  ██████   ██████   ██████  ██ ██   ████  ██████  
+
 no-logs-found: '%prefix% &eCould not find logs for &f%name%&e.'
 logs-cleared: '%prefix% &eCleared logs for &f%name% &esuccessfully.'
 logcommand-exists: '&cThe command you entered (%command%) is already in the list.'
@@ -212,7 +322,12 @@ log-format: '&7[%date%] &e%name%:&6&l %command%'
 
 
 
-#           {---}       StaffMode Section       {---}
+#  ███████ ████████  █████  ███████ ███████     ███    ███  ██████  ██████  ███████ 
+#  ██         ██    ██   ██ ██      ██          ████  ████ ██    ██ ██   ██ ██      
+#  ███████    ██    ███████ █████   █████       ██ ████ ██ ██    ██ ██   ██ █████   
+#       ██    ██    ██   ██ ██      ██          ██  ██  ██ ██    ██ ██   ██ ██      
+#  ███████    ██    ██   ██ ██      ██          ██      ██  ██████  ██████  ███████ 
+
 follower-message: '%prefix% &eYou are now following &f%name%&e.'
 staffmode-toggled: '%prefix% &eYour staffmode was &6%status%&e.'
 toggled-players-staffmode: '%prefix% &eYou toggled staffmode of &f%name%&e.'
@@ -223,13 +338,26 @@ toggled-players-vanish: '%prefix% &eYou &6%toggled% &evanish for &f%name%&e.'
 show-miners-under-y-level: 25
 
 
-#           {---}       Speed Section        {---}
+
+#  ███████ ██████  ███████ ███████ ██████  
+#  ██      ██   ██ ██      ██      ██   ██ 
+#  ███████ ██████  █████   █████   ██   ██ 
+#       ██ ██      ██      ██      ██   ██ 
+#  ███████ ██      ███████ ███████ ██████  
+
 walk-speed-set: '%prefix% &eYour walking speed was set to &6%speed%&e.'
 fly-speed-set: '%prefix% &eYour flight speed was set to &6%speed%&e.'
 walk-speed-reset: '%prefix% &eYour walking speed was reset.'
 fly-speed-reset: '%prefix% &eYour flight speed was reset.'
 
-#           {---}       Misc        {---}
+
+
+#  ███    ███ ██ ███████  ██████ 
+#  ████  ████ ██ ██      ██      
+#  ██ ████ ██ ██ ███████ ██      
+#  ██  ██  ██ ██      ██ ██      
+#  ██      ██ ██ ███████  ██████ 
+
 playtime-message: '&f%name%&e has played for a total of &6%time%&e.'
 player-stripped: '%prefix% &eStripped armor of &f%name%&e.'
 player-inventory-full: '%prefix% &cInventory of &f%name%&c is full.'
@@ -238,7 +366,13 @@ toggled-godmode: '%prefix% &eYour godmode was &6%toggled%&e.'
 toggled-godmode-player: '%prefix% &eYou &6%toggled%&e godmode for &f%name%&e.'
 
 
-#           {---}       Command Toggle Section      {---}
+
+#   ██████  ██████  ███    ███ ███    ███  █████  ███    ██ ██████      ████████  ██████   ██████   ██████  ██      ███████ 
+#  ██      ██    ██ ████  ████ ████  ████ ██   ██ ████   ██ ██   ██        ██    ██    ██ ██       ██       ██      ██      
+#  ██      ██    ██ ██ ████ ██ ██ ████ ██ ███████ ██ ██  ██ ██   ██        ██    ██    ██ ██   ███ ██   ███ ██      █████   
+#  ██      ██    ██ ██  ██  ██ ██  ██  ██ ██   ██ ██  ██ ██ ██   ██        ██    ██    ██ ██    ██ ██    ██ ██      ██      
+#   ██████  ██████  ██      ██ ██      ██ ██   ██ ██   ████ ██████         ██     ██████   ██████   ██████  ███████ ███████ 
+
 commands:
   staffchat: 'enabled'
   report: 'enabled'
@@ -272,7 +406,14 @@ commands:
   ping: 'enabled'
   god: 'enabled'
 
-#           {---}       Staff Mode Items Section     {---}
+
+
+#  ███████ ████████  █████  ███████ ███████     ███    ███  ██████  ██████  ███████     ██ ████████ ███████ ███    ███ ███████ 
+#  ██         ██    ██   ██ ██      ██          ████  ████ ██    ██ ██   ██ ██          ██    ██    ██      ████  ████ ██      
+#  ███████    ██    ███████ █████   █████       ██ ████ ██ ██    ██ ██   ██ █████       ██    ██    █████   ██ ████ ██ ███████ 
+#       ██    ██    ██   ██ ██      ██          ██  ██  ██ ██    ██ ██   ██ ██          ██    ██    ██      ██  ██  ██      ██ 
+#  ███████    ██    ██   ██ ██      ██          ██      ██  ██████  ██████  ███████     ██    ██    ███████ ██      ██ ███████ 
+
 staffmode-randomtp-name: '&6Random Teleport'
 staffmode-randomtp-material: 'COMPASS'
 staffmode-randomtp-amount: 1
