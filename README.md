@@ -1,6 +1,6 @@
 # StaffTools
 
-NOTE: Project uncomplete.
+**NOTE: Project uncomplete.**
 
 # Commands & Permissions
 
